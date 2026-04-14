@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 app.config["JWT_SECRET_KEY"] = "mediconnect_super_secret_key_123"
 
-CORS(app)
+CORS(app, supports_credentials=True)
 jwt = JWTManager(app)
 
 from routes.auth import auth
