@@ -6,7 +6,10 @@ import os
 app = Flask(__name__)
 app.config["JWT_SECRET_KEY"] = "mediconnect_super_secret_key_123"
 
-CORS(app, supports_credentials=True)
+CORS(app, origins=[
+    "http://localhost:5173",
+    "https://medi-connect-6bo1.vercel.app"
+])
 jwt = JWTManager(app)
 
 from routes.auth import auth
