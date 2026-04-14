@@ -25,6 +25,8 @@ cd backend
 pip install -r requirements.txt
 python app.py
 
+Live Demo: https://medi-connect-6bo1.vercel.app
+
 ### Frontend
 cd frontend
 npm install
