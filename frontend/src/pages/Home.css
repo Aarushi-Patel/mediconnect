@@ -1,0 +1,100 @@
+.home-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fce4ed;
+  border-radius: 20px;
+  color: #5c1a35;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.welcome-user {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.btn-hero {
+  background-color: #e07aa0;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-hero:hover {
+  background-color: #c66085;
+}
+
+.btn-hero-outline {
+  background-color: transparent;
+  color: #e07aa0;
+  border: 2px solid #e07aa0;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-hero-outline:hover {
+  background-color: rgba(224, 122, 160, 0.1);
+}
+
+.features-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.feature-card {
+  background: #fff0f5;
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+.feature-card span {
+  font-size: 40px;
+}
+
+.feature-card h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 12px 0 8px;
+  color: #5c1a35;
+}
+
+.feature-card p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}

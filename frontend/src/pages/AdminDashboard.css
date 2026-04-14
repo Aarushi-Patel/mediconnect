@@ -1,0 +1,57 @@
+.admin-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  background-color: #fff5f8;
+  min-height: 90vh;
+}
+
+.admin-card {
+  background: #fff0f5;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.admin-subtitle {
+  color: #666;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+
+.admin-message {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.form-group input:focus {
+  border-color: #e07aa0;
+}
